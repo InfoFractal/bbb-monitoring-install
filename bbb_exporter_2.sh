@@ -4,7 +4,7 @@ apt install -y python3-pip
 cd /opt
 git clone https://github.com/greenstatic/bigbluebutton-exporter.git
 cd bigbluebutton-exporter/
-git checkout release-0.6
+#git checkout release-0.6
 pip3 install -r requirements.txt
 useradd -r -d /opt/bigbluebutton-exporter -s /usr/sbin/nologin bbb-exporter
 chown -R bbb-exporter:bbb-exporter /opt/bigbluebutton-exporter
